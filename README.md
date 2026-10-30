@@ -1,4 +1,3 @@
-<img width="1856" height="1033" alt="Screenshot 2026-10-30 145910" src="https://github.com/user-attachments/assets/47260db4-393e-4c88-ae40-61a280f90cfb" /># BDF-Lab-2
 ## Lab 2: SQLite Database and CRUD Routes
 
 ## Student Details
