@@ -42,15 +42,16 @@ lab-02/
 ├── README.md
 ├── database/
 │   └── books.db
-├── sql/
-│   └── seed.sql
+├── seed.js
+├── seed.sql
+├── app.http
 └── screenshots/
-    ├── get-all-books.png
-    ├── get-single-book.png
-    ├── post-book.png
-    ├── put-book.png
-    ├── delete-book.png
-    └── database-view.png
+    ├── 01_get_all_books.png
+    ├── 02_get_single_book.png
+    ├── 03_post_add_book.png
+    ├── 04_put_update_book.png
+    ├── 05_delete_book.png
+    └── 07_sqlite_cli_view.png
 ```
 
 ## Installation and Setup
@@ -92,7 +93,7 @@ The application creates the database directory and `book` table when the databas
 If the database is empty, open another terminal and run:
 
 ```bash
-sqlite3 database/books.db < sql/seed.sql
+sqlite3 database/books.db < seed.sql
 ```
 
 Do not execute the seed script repeatedly against the same database.
@@ -169,27 +170,27 @@ Base URL: `http://localhost:3000`
 
 ### 1. Retrieve All Books
 
-![GET all books](screenshots/get-all-books.png)
+![GET all books](lab-02/screenshots/01_get_all_books.png)
 
 ### 2. Retrieve a Single Book
 
-![GET single book](screenshots/get-single-book.png)
+![GET single book](lab-02/screenshots/02_get_single_book.png)
 
 ### 3. Add a Book
 
-![POST book](screenshots/post-book.png)
+![POST book](lab-02/screenshots/03_post_add_book.png)
 
 ### 4. Update a Book
 
-![PUT book](screenshots/put-book.png)
+![PUT book](lab-02/screenshots/04_put_update_book.png)
 
 ### 5. Delete a Book
 
-![DELETE book](screenshots/delete-book.png)
+![DELETE book](lab-02/screenshots/05_delete_book.png)
 
 ### 6. SQLite Database Verification
 
-![SQLite database view](screenshots/database-view.png)
+![SQLite database view](lab-02/screenshots/07_sqlite_cli_view.png)
 
 ## HTTP Status Codes
 
