@@ -65,13 +65,15 @@ lab-02/
 ### 1. Clone the repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+[git clone YOUR_GITHUB_REPOSITORY_URL]
+(https://github.com/pendyalamanasa823-design/BDF-Lab-2)
+
 ```
 
 Navigate to the lab folder:
 
 ```bash
-cd YOUR_REPOSITORY_NAME/lab-02
+(https://bdf-lab-2-hf2z.onrender.com/books/)
 ```
 
 ### 2. Install dependencies
